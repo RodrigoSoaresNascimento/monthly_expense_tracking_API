@@ -21,7 +21,7 @@ public class OpenAPIConfig {
     @Bean
     public OpenAPI myOpenAPI() {
         Server devServer = new Server();
-        devServer.setUrl(devUrl);
+        //devServer.setUrl(devUrl);
         devServer.setDescription("Server URL in Development environment");
 
 
