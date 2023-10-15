@@ -24,11 +24,6 @@ public class OpenAPIConfig {
         devServer.setUrl(devUrl);
         devServer.setDescription("Server URL in Development environment");
 
-        Server prodServer = new Server();
-        prodServer.setUrl("/");
-        prodServer.setDescription("Server URL in Production environment");
-
-
         License mitLicense = new License().name("MIT License").url("https://choosealicense.com/licenses/mit/");
 
         Info info = new Info()
